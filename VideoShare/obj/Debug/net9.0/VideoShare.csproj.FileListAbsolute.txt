@@ -1,0 +1,14 @@
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\bin\Debug\net9.0\VideoShare.exe
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\bin\Debug\net9.0\VideoShare.deps.json
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\bin\Debug\net9.0\VideoShare.runtimeconfig.json
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\bin\Debug\net9.0\VideoShare.dll
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\bin\Debug\net9.0\VideoShare.pdb
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.AssemblyInfoInputs.cache
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.AssemblyInfo.cs
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.csproj.CoreCompileInputs.cache
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.dll
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\refint\VideoShare.dll
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.pdb
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.genruntimeconfig.cache
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\ref\VideoShare.dll
