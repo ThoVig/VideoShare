@@ -1,0 +1,4 @@
+interface Connecter
+{
+	string Update();
+}

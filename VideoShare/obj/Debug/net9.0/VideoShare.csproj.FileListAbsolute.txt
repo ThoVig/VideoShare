@@ -12,3 +12,4 @@ C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\refint\V
 C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.pdb
 C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.genruntimeconfig.cache
 C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\ref\VideoShare.dll
+C:\Users\Thoger\Documents\GitHub\VideoShare\VideoShare\obj\Debug\net9.0\VideoShare.sourcelink.json
