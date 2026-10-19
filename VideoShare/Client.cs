@@ -7,8 +7,9 @@ class Client : Connecter
 {
 	ushort port;
 	string ip;
-	TcpClient client;
-	NetworkStream stream;
+	UdpClient client;
+	IPEndPoint serverEndPoint;
+	
 	public Client()
 	{
 		Console.Write("IP?: ");
@@ -18,8 +19,9 @@ class Client : Connecter
 		Console.Write("Port? (0 - 65535): ");
 		port = ushort.Parse(Console.ReadLine() ?? "0");
 
-		client = new TcpClient(ip, port);
-		stream = client.GetStream();
+		client = new UdpClient();
+
+		serverEndPoint = new IPEndPoint(IPAddress.Parse(ip), port);
 	}
 	
 	public string Update()
@@ -32,7 +34,8 @@ class Client : Connecter
 		}
 		var buffer = Encoding.UTF8.GetBytes(message ?? "");
 
-		stream.Write(buffer, 0, buffer.Length);
+		client.Send(buffer, buffer.Length, serverEndPoint);
+
 		return "";
 	}
 }
