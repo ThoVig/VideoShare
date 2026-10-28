@@ -22,6 +22,8 @@ class Client : Connecter
 		client = new UdpClient();
 
 		serverEndPoint = new IPEndPoint(IPAddress.Parse(ip), port);
+		var connectedMessage = Encoding.UTF8.GetBytes("Connected");
+		client.Send(connectedMessage, connectedMessage.Length, serverEndPoint);
 	}
 	
 	public string Update()

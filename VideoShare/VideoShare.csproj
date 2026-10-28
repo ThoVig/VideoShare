@@ -5,6 +5,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <NuGetAuditMode>all</NuGetAuditMode>
   </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="LibVLCSharp" Version="3.10.2" />
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.24" />
+  </ItemGroup>
 
 </Project>

@@ -18,14 +18,21 @@ class Host : Connecter
 
 		Console.WriteLine($"Starting UDP Server on port {port}...");
 		clientEndPoint = new IPEndPoint(IPAddress.Any, 0);
+		
+		var received = listender.Receive(ref clientEndPoint);
+
+		var message = Encoding.UTF8.GetString(received);
 	}
 	
 	public string Update()
 	{
+		Console.WriteLine("111asdwas");
 		var received = listender.Receive(ref clientEndPoint);
 
 		var message = Encoding.UTF8.GetString(received);
 		Console.WriteLine($"Received: {message}");
+
+		Console.WriteLine("asdwas");
 
 		return "";
 	}

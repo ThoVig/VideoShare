@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoShare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f0c7fa88d7e8cba0f585eae7fcf7203515dcd28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e8629f57d51ee1de5c9d6f97d230b5a2d0146fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoShare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoShare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
