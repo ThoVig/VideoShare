@@ -2,3 +2,6 @@
 /.vs
 /.vscode
 /Backup
+**/bin/
+**/obj/
+.vscode/settings.json
