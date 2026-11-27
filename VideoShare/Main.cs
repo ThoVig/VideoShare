@@ -8,12 +8,12 @@ Console.Write("Host? (y/n): ");
 bool isHost = Console.ReadLine() == "y";
 Console.WriteLine();
 
-using var libvlc = new LibVLC(enableDebugLogs: true);
-using var media = new Media(libvlc, new Uri(@"D:\Video (D)\;-discord vids\boowomp.mp4"));
-using var mediaplayer = new MediaPlayer(media);
-mediaplayer.EndReached += (sender, e) => ThreadPool.QueueUserWorkItem(_ => mediaplayer.Dispose());
+// using var libvlc = new LibVLC(enableDebugLogs: true);
+// using var media = new Media(libvlc, new Uri(@"D:\Video (D)\;-discord vids\boowomp.mp4"));
+// using var mediaplayer = new MediaPlayer(media);
+// mediaplayer.EndReached += (sender, e) => ThreadPool.QueueUserWorkItem(_ => mediaplayer.Dispose());
 
-mediaplayer.Play();
+// mediaplayer.Play();
 
 
 
